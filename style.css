@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.again {
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+}
+
+
+
+.main {
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.orta {
+
+    margin-top: 30px;
+
+
+display: flex;
+align-items: center;
+   
+    padding: 20px;
+    font-size: 35px;
+}
+.ortasol{
+    height: 10px;
+    width: 42%;
+    background-color: white;
+}
+.ortasag{
+    width: 42%;
+    background-color: white;
+    height: 10px;
+}
+
+.orta_sual {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 16%;
+    min-height: 60px;
+    margin: auto;
+    background-color: white;
+    color: black;
+}
+
+.lower {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.lower_left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+input {
+    color: white;
+    border: 5px solid white;
+    background-color: black;
+    min-height: 100px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+button {
+    font-size: 30px;
+
+    width: 60%;
+    margin: auto;
+    height: 60px;
+}
+
+.lower_right {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.lower_right_upper {
+    font-size: 40px;
+}
+
+.lower_right_lower {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.font {
+    font-size: 50px;
+}
